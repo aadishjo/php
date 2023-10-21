@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #FF5733;
+    color: white;
+    padding: 10px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #CCC;
+    padding: 20px;
+}
+
+select, input[type="checkbox"], input[type="text"] {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#orderConfirmation {
+    display: none;
+    background-color: #F1F1F1;
+    padding: 20px;
+    margin: 20px;
+}
